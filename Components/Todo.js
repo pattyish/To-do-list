@@ -17,7 +17,8 @@ const styles = StyleSheet.create({
         borderColor: 'grey',
         borderWidth: 1,
         borderRadius: 5,
-        backgroundColor: 'whitesmoke'
+        backgroundColor: 'whitesmoke',
+        marginBottom: 2
     }
 })
 
