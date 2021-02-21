@@ -5,6 +5,11 @@ const Todo = (props) => {
   return (
     <View key={props.key} style={[styles.item, { padding: 8 }]}>
       <Text>{props.todo}</Text>
+      <Button
+        title={"Delete"}
+        color={"red"}
+        onPress={() => props.delete(props.todo)}
+      />
     </View>
   );
 };
